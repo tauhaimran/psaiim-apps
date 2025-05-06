@@ -41,3 +41,11 @@ venv/
 temp/
 output/
 node_modules/
+
+
+# Ignore all folders named __pycache__ anywhere
+__pycache__/
+
+# Ignore all build directories (any level)
+**/build/
+
