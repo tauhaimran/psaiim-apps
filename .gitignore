@@ -26,3 +26,18 @@ node_modules/
 
 #ignore zip
 *.zip
+
+# Ignore a folder named "folder"
+build/
+higg/
+Higgs/
+venv/
+.vscode/
+
+# Ignore nested folder "logs" inside any directory
+**/logs/
+
+# Ignore multiple specific folders
+temp/
+output/
+node_modules/
